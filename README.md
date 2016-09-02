@@ -1,1 +1,3 @@
-# test-hexa
+# Testing Task
+
+Create image downloader.

@@ -1,0 +1,22 @@
+{
+  "name": "maxim2513/test-hexa",
+  "description": "Testing task for Hexa",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Morozov Maxim",
+      "email": "morozovmaxim25@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "files":[
+      "src/ImageDownloader.php"
+    ],
+    "psr-4": {
+      "Hexa\\": "src"
+    }
+  }
+}
